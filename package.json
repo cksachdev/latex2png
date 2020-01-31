@@ -1,0 +1,28 @@
+{
+  "name": "latex2png",
+  "version": "1.0.0",
+  "description": "API to convert latex formula to png",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/cksachdev/latex2png.git"
+  },
+  "author": "",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/cksachdev/latex2png/issues"
+  },
+  "homepage": "https://github.com/cksachdev/latex2png#readme",
+  "dependencies": {
+    "async": "^3.1.1",
+    "asyncawait": "^3.0.0",
+    "body-parser": "^1.19.0",
+    "cors": "^2.8.5",
+    "express": "^4.17.1",
+    "mathjax-full": "^3.0.0",
+    "svg2img": "^0.6.1"
+  }
+}
