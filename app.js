@@ -4,6 +4,7 @@ const latexService = require('./latexService.js')
 const cors = require('cors')
 
 const app = express()
+app.use(express.static(__dirname + '/public'));
 const PORT = process.env.PORT || 3100;
 app.use(cors())
 // parse requests of content-type - application/x-www-form-urlencoded
